@@ -18,6 +18,10 @@ export interface GlobalDataProps {
   templates: TemplateProps[];
 }
 
+export interface GlobalComponents {
+  components: []
+}
+
 export default createStore({
   state: {},
   mutations: {},
