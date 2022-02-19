@@ -19,7 +19,8 @@ export interface GlobalDataProps {
 }
 
 export interface GlobalComponents {
-  components: []
+  components: [];
+  user: UserProps;
 }
 
 export default createStore({
